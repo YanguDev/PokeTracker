@@ -1,0 +1,20 @@
+{
+    "name": "PokeTracker.Bootstrap",
+    "rootNamespace": "PokeTracker.Bootstrap",
+    "references": [
+        "GUID:23eb609a63d160a429efa1e8f0e0a82a",
+        "GUID:b9e360fcc3db80840b6a43cb8c9f437c",
+        "GUID:f509a25b62e5f98488666a6b8bfe2791",
+        "GUID:dad8a94bdb4b8af48b913a64999c28cc",
+        "GUID:1530a967b84cfb44dbdd5e8a1989764f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "PokeTracker.Core",
+    "rootNamespace": "PokeTracker.Core",
+    "references": [
+        "GUID:23eb609a63d160a429efa1e8f0e0a82a",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

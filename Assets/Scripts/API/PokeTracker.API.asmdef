@@ -1,0 +1,18 @@
+{
+    "name": "PokeTracker.API",
+    "rootNamespace": "PokeTracker.API",
+    "references": [
+        "GUID:b9e360fcc3db80840b6a43cb8c9f437c",
+        "GUID:23eb609a63d160a429efa1e8f0e0a82a",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
