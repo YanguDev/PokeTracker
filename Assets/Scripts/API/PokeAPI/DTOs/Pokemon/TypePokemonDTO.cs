@@ -3,6 +3,6 @@ namespace PokeTracker.API.PokeApi.DTOs
     public class TypePokemonDTO
     {
         public int slot;
-        public NamedAPIResourceDTO pokemon;
+        public NamedAPIResourceDTO<PokemonDTO> pokemon;
     }
 }

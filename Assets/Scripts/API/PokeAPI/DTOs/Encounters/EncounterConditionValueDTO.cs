@@ -4,7 +4,7 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public int id;
         public string name;
-        public NamedAPIResourceDTO condition;
+        public NamedAPIResourceDTO<EncounterConditionDTO> condition;
         public NameDTO[] names;
     }
 }

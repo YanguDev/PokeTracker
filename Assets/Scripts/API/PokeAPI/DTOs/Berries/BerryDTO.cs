@@ -10,9 +10,9 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int size;
         public int smoothness;
         public int soil_dryness;
-        public NamedAPIResourceDTO firmness;
+        public NamedAPIResourceDTO<BerryFirmnessDTO> firmness;
         public BerryFlavorMapDTO[] flavors;
-        public NamedAPIResourceDTO item;
-        public NamedAPIResourceDTO natural_gift_type;
+        public NamedAPIResourceDTO<ItemDTO> item;
+        public NamedAPIResourceDTO<TypeDTO> natural_gift_type;
     }
 }

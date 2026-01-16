@@ -5,7 +5,7 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int id;
         public int gene_modulo;
         public int[] possible_values;
-        public NamedAPIResourceDTO highest_stat;
+        public NamedAPIResourceDTO<StatDTO> highest_stat;
         public DescriptionDTO[] descriptions;
     }
 }

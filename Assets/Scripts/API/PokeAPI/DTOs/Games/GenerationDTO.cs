@@ -4,12 +4,12 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public int id;
         public string name;
-        public NamedAPIResourceDTO[] abilities;
+        public NamedAPIResourceDTO<AbilityDTO>[] abilities;
         public NameDTO[] names;
-        public NamedAPIResourceDTO main_region;
-        public NamedAPIResourceDTO[] moves;
-        public NamedAPIResourceDTO[] pokemon_species;
-        public NamedAPIResourceDTO[] types;
-        public NamedAPIResourceDTO[] version_groups;
+        public NamedAPIResourceDTO<RegionDTO> main_region;
+        public NamedAPIResourceDTO<MoveDTO>[] moves;
+        public NamedAPIResourceDTO<PokemonSpeciesDTO>[] pokemon_species;
+        public NamedAPIResourceDTO<TypeDTO>[] types;
+        public NamedAPIResourceDTO<VersionGroupDTO>[] version_groups;
     }
 }

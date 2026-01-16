@@ -1,8 +1,7 @@
 namespace PokeTracker.API.PokeApi.DTOs
 {
-    public class NamedAPIResourceDTO
+    public class NamedAPIResourceDTO<T> : APIResourceDTO<T>
     {
         public string name;
-        public string url;
     }
 }

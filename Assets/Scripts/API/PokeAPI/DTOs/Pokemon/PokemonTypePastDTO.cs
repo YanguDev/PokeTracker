@@ -2,7 +2,7 @@ namespace PokeTracker.API.PokeApi.DTOs
 {
     public class PokemonTypePastDTO
     {
-        public NamedAPIResourceDTO generation;
+        public NamedAPIResourceDTO<GenerationDTO> generation;
         public PokemonTypeDTO[] types; 
     }
 }

@@ -4,7 +4,7 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public int id;
         public string name;
-        public NamedAPIResourceDTO[] categories;
+        public NamedAPIResourceDTO<ItemCategoryDTO>[] categories;
         public NameDTO[] names;
     }
 }

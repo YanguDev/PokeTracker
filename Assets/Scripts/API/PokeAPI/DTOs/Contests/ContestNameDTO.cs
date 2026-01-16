@@ -4,6 +4,6 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public string name;
         public string color;
-        public NamedAPIResourceDTO language;
+        public NamedAPIResourceDTO<LanguageDTO> language;
     }
 }

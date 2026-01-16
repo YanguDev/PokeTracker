@@ -10,7 +10,7 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int order;
         public int weight;
         public PokemonAbilityDTO[] abilities;
-        public NamedAPIResourceDTO forms;
+        public NamedAPIResourceDTO<PokemonFormDTO>[] forms;
         public VersionGameIndexDTO[] game_indices;
         public PokemonHeldItemDTO[] held_items;
         public string location_area_encounters;
@@ -18,7 +18,7 @@ namespace PokeTracker.API.PokeApi.DTOs
         public PokemonTypePastDTO[] past_types;
         public PokemonSpritesDTO sprites;
         public PokemonCriesDTO cries;
-        public NamedAPIResourceDTO species;
+        public NamedAPIResourceDTO<PokemonSpeciesDTO> species;
         public PokemonStatDTO[] stats;
         public PokemonTypeDTO[] types;
     }

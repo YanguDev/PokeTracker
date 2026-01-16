@@ -8,7 +8,7 @@ namespace PokeTracker.API.PokeApi.DTOs
         public DescriptionDTO[] descriptions;
         public NameDTO[] names;
         public PokemonEntryDTO[] pokemon_entries;
-        public NamedAPIResourceDTO region;
-        public NamedAPIResourceDTO[] version_groups;
+        public NamedAPIResourceDTO<RegionDTO> region;
+        public NamedAPIResourceDTO<VersionGroupDTO>[] version_groups;
     }
 }

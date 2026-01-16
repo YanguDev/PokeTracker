@@ -5,6 +5,6 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int id;
         public string name;
         public NameDTO[] names;
-        public NamedAPIResourceDTO pokemon_species;
+        public NamedAPIResourceDTO<PokemonSpeciesDTO> pokemon_species;
     }
 }

@@ -10,21 +10,21 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int priority;
         public int power;
         public ContestComboSetsDTO contest_combos;
-        public NamedAPIResourceDTO contest_type;
-        public APIResourceDTO contest_effect;
-        public NamedAPIResourceDTO damage_class;
+        public NamedAPIResourceDTO<ContestTypeDTO> contest_type;
+        public APIResourceDTO<ContestEffectDTO> contest_effect;
+        public NamedAPIResourceDTO<MoveDamageClassDTO> damage_class;
         public VerboseEffectDTO[] effect_entries;
         public AbilityEffectChangeDTO[] effect_changes;
-        public NamedAPIResourceDTO[] learned_by_pokemon;
+        public NamedAPIResourceDTO<PokemonDTO>[] learned_by_pokemon;
         public MoveFlavorTextDTO[] flavor_text_entries;
-        public NamedAPIResourceDTO generation;
+        public NamedAPIResourceDTO<GenerationDTO> generation;
         public MachineVersionDetailDTO[] machines;
         public MoveMetaDataDTO meta;
         public NameDTO[] names;
         public PastMoveStatValuesDTO[] past_values;
         public MoveStatChangeDTO[] stat_changes;
-        public APIResourceDTO super_contest_effect;
-        public NamedAPIResourceDTO target;
+        public APIResourceDTO<SuperContestEffectDTO> super_contest_effect;
+        public NamedAPIResourceDTO<MoveTargetDTO> target;
         public NameDTO type;
     }
 }

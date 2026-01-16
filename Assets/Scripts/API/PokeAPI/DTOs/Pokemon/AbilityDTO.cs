@@ -5,7 +5,7 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int id;
         public string name;
         public bool is_main_series;
-        public NamedAPIResourceDTO generation;
+        public NamedAPIResourceDTO<GenerationDTO> generation;
         public NameDTO[] names;
         public VerboseEffectDTO[] effect_entries;
         public AbilityEffectChangeDTO[] effect_changes;

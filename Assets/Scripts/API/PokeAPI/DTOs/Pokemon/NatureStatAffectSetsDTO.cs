@@ -2,7 +2,7 @@ namespace PokeTracker.API.PokeApi.DTOs
 {
     public class NatureStatAffectSetsDTO
     {
-        public NamedAPIResourceDTO[] increase;
-        public NamedAPIResourceDTO[] decrease;
+        public NamedAPIResourceDTO<NatureDTO>[] increase;
+        public NamedAPIResourceDTO<NatureDTO>[] decrease;
     }
 }

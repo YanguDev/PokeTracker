@@ -8,8 +8,8 @@ namespace PokeTracker.API.PokeApi.DTOs
         public bool is_battle_only;
         public MoveStatAffectSetsDTO affecting_moves;
         public NatureStatAffectSetsDTO affecting_natures;
-        public APIResourceDTO[] characteristics;
-        public NamedAPIResourceDTO move_damage_class;
+        public APIResourceDTO<CharacteristicDTO>[] characteristics;
+        public NamedAPIResourceDTO<MoveDamageClassDTO> move_damage_class;
         public NameDTO[] names;
     }
 }

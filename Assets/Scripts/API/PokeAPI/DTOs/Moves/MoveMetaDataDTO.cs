@@ -2,8 +2,8 @@ namespace PokeTracker.API.PokeApi.DTOs
 {
     public class MoveMetaDataDTO
     {
-        public NamedAPIResourceDTO ailment;
-        public NamedAPIResourceDTO category;
+        public NamedAPIResourceDTO<MoveAilmentDTO> ailment;
+        public NamedAPIResourceDTO<MoveCategoryDTO> category;
         public int min_hits;
         public int max_hits;
         public int min_turns;

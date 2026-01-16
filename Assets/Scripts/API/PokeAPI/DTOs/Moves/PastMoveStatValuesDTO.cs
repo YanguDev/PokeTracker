@@ -7,7 +7,7 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int power;
         public int PP;
         public VerboseEffectDTO[] effect_entries;
-        public NamedAPIResourceDTO type;
-        public NamedAPIResourceDTO version_group;
+        public NamedAPIResourceDTO<TypeDTO> type;
+        public NamedAPIResourceDTO<VersionGroupDTO> version_group;
     }
 }

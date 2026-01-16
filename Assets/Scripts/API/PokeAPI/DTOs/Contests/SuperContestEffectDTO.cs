@@ -5,6 +5,6 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int id;
         public int appeal;
         public FlavorTextDTO[] flavor_text_entries;
-        public NamedAPIResourceDTO[] moves;
+        public NamedAPIResourceDTO<MoveDTO>[] moves;
     }
 }

@@ -4,6 +4,6 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public int base_score;
         public int rate;
-        public NamedAPIResourceDTO pokemon_species;
+        public NamedAPIResourceDTO<PokemonSpeciesDTO> pokemon_species;
     }
 }

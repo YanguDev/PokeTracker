@@ -5,7 +5,7 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int id;
         public string name;
         public DescriptionDTO[] descriptions;
-        public NamedAPIResourceDTO[] moves;
+        public NamedAPIResourceDTO<MoveDTO>[] moves;
         public NameDTO[] names;
     }
 }

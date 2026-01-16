@@ -4,6 +4,6 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public bool isHidden;
         public int slot;
-        public NamedAPIResourceDTO ability;
+        public NamedAPIResourceDTO<AbilityDTO> ability;
     }
 }

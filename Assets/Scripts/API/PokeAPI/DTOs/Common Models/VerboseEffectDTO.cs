@@ -4,6 +4,6 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public string effect;
         public string short_effect;
-        public NamedAPIResourceDTO language;
+        public NamedAPIResourceDTO<LanguageDTO> language;
     }
 }

@@ -7,6 +7,6 @@ namespace PokeTracker.API.PokeApi.DTOs
         public string formula;
         public DescriptionDTO[] descriptions;
         public GrowthRateExperienceLevelDTO[] levels;
-        public NamedAPIResourceDTO[] pokemon_species;
+        public NamedAPIResourceDTO<PokemonSpeciesDTO>[] pokemon_species;
     }
 }

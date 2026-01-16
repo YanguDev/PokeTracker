@@ -4,9 +4,9 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public int id;
         public string name;
-        public NamedAPIResourceDTO region;
+        public NamedAPIResourceDTO<RegionDTO> region;
         public NameDTO[] names;
         public GenerationGameIndexDTO[] game_indices;
-        public NamedAPIResourceDTO[] areas;
+        public NamedAPIResourceDTO<LocationAreaDTO>[] areas;
     }
 }

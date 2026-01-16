@@ -4,6 +4,6 @@ namespace PokeTracker.API.PokeApi.DTOs
     {
         public int low_hp_preference;
         public int high_hp_preference;
-        public NamedAPIResourceDTO move_battle_style;
+        public NamedAPIResourceDTO<MoveBattleStyleDTO> move_battle_style;
     }
 }

@@ -5,6 +5,6 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int id;
         public string name;
         public NameDTO[] names;
-        public NamedAPIResourceDTO version_group;
+        public NamedAPIResourceDTO<VersionGroupDTO> version_group;
     }
 }

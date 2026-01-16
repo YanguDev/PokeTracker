@@ -5,6 +5,6 @@ namespace PokeTracker.API.PokeApi.DTOs
         public int id;
         public string name;
         public EffectDTO[] effect_entries;
-        public NamedAPIResourceDTO[] items;
+        public NamedAPIResourceDTO<ItemDTO>[] items;
     }
 }

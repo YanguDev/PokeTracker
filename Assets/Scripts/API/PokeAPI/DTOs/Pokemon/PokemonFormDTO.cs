@@ -10,10 +10,10 @@ namespace PokeTracker.API.PokeApi.DTOs
         public bool is_battle_only;
         public bool is_mega;
         public string form_name;
-        public NamedAPIResourceDTO pokemon;
+        public NamedAPIResourceDTO<PokemonDTO> pokemon;
         public PokemonFormTypeDTO[] types;
         public PokemonFormSpritesDTO sprites;
-        public NamedAPIResourceDTO version_group;
+        public NamedAPIResourceDTO<VersionGroupDTO> version_group;
         public NameDTO[] names;
         public NameDTO[] form_names;
     }
